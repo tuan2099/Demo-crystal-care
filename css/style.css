@@ -475,9 +475,6 @@ section {
   align-items: center;
 }
 
-.hero-badge h1 {
-  font-size: 52px;
-}
 
 .intro-sep {
   background: #d0d8f0;
@@ -1328,4 +1325,10 @@ footer {
 .reveal.visible {
   opacity: 1;
   transform: translateY(0);
+}
+
+
+
+.hero-badge h1 {
+  font-size: 52px;
 }
