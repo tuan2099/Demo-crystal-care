@@ -878,9 +878,9 @@
 
   /* ── FOOTER ── */
   footer {
-    background: #06060f;
+    background: var(--white);
     padding: 60px 40px 40px;
-    color: rgba(255,255,255,0.5);
+    color: var(--text-muted);
   }
 
   .footer-inner {
@@ -904,7 +904,7 @@
 
   .footer-contact { display: flex; flex-direction: column; gap: 10px; }
   .footer-contact a {
-    color: rgba(255,255,255,0.5);
+    color: var(--text-muted);
     text-decoration: none;
     font-size: 14px;
     display: flex;
@@ -914,20 +914,21 @@
   }
   .footer-contact a:hover { color: var(--teal); }
 
-  .footer-links h4 { font-size: 13px; font-weight: 700; color: var(--white); text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 20px; }
+  .footer-links h4 { font-size: 13px; font-weight: 700; color: var(--text-dark); text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 20px; }
   .footer-links ul { list-style: none; display: flex; flex-direction: column; gap: 12px; }
-  .footer-links a { color: rgba(255,255,255,0.5); text-decoration: none; font-size: 14px; transition: color 0.2s; }
+  .footer-links a { color: var(--text-muted); text-decoration: none; font-size: 14px; transition: color 0.2s; }
   .footer-links a:hover { color: var(--teal); }
 
   .footer-bottom {
     max-width: 1200px;
     margin: 0 auto;
     padding-top: 24px;
-    border-top: 1px solid rgba(255,255,255,0.08);
+    border-top: 1px solid #e0e8f5;
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-size: 13px;
+    color: var(--text-muted);
   }
 
   .footer-bottom a { color: var(--teal); text-decoration: none; }
