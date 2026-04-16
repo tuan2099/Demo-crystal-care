@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://crystalcare.com.vn/sitemap.xml
+Sitemap: https://crystalcare.vn/sitemap.xml
