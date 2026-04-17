@@ -394,6 +394,36 @@ nav.scrolled .nav-links a:hover {
   color: var(--teal);
 }
 
+.nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.nav-hotline {
+  color: var(--white);
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: color 0.2s;
+}
+
+.nav-hotline i {
+  color: var(--teal);
+  font-size: 16px;
+}
+
+.nav-hotline:hover {
+  color: var(--teal);
+}
+
+nav.scrolled .nav-hotline {
+  color: var(--text-dark);
+}
+
 .nav-cta {
   background: var(--teal);
   color: var(--text-dark);
